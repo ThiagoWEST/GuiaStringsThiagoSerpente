@@ -13,15 +13,15 @@ int main()
     	 
 scanf("%s", b);
    
- for (int i = 0; i<20; i++){
-        if (a[i] != b[i]){
+ for (int i = 0; i<20; i++){ //se recorren los dos strings, se comparan letra por letra 
+        if (a[i] != b[i]){   //si string a no es igual al b flag=1
             	flag = 1; }
     }
-   	 if (flag == 0){
+   	 if (flag == 0){ //si no cambia (flag) son identics
         	printf("Son iguales");
     }
     	else{
-       	 printf("Son diferentes");
+       	 printf("Son diferentes"); //lo opuesto
     }
     return 0;
 }
